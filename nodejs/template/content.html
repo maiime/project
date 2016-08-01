@@ -1,0 +1,5 @@
+<div id="content" ng-controller="contentCtr" class="well well-lg">
+	<h3>{{content.title}}</h3>
+	<hr>
+	<div ng-bind-html="content.content|to_trusted"></div>
+</div>

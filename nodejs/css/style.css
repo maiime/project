@@ -1,0 +1,22 @@
+#list .head_img{
+	width: 40px;
+}
+#list h4.pull-left{
+	width: 70%;
+	height: 20px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+#list h4 .btn{
+	margin-left: 10px;
+}
+#list h4.pull_right{
+	width: 20%;
+}
+#btn a{
+	text-decoration: none;
+}
+#content img{
+	max-width: 100%;
+}

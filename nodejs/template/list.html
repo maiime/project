@@ -1,0 +1,18 @@
+<div ng-controller="listCtr" id="list">
+	<div class="well clearfix row" ng-repeat="x in allData">
+		<div class="col-sm-8">
+			<div class="pull-left">
+				<img ng-src="{{x.author.avatar_url}}" class="img-rounded head_img">
+			</div>
+			<h4 class="pull-left">
+				<span class="btn btn-xs btn-success">置顶</span>
+				<a href="#/content" ng-click="showContent(x)">{{x.title}}</a>
+			</h4>
+		</div>
+		<div class="col-sm-4">
+			<h4 class="pull-right text-right">
+				<em class="small">发布于：{{x.create_at|time_init}}</em>
+			</h4>
+		</div>
+	</div>
+</div>
